@@ -15,7 +15,7 @@ Examples:
 
 
 
-@BookingOrder
+@Booking
 Scenario: user to select a tshrit for booking a order 
 Given user navigates to tshirt in women option
 When user click on tshirt image to be booked
@@ -27,7 +27,7 @@ Then user verifies selection of tshirt is done
 
 
 
-@PlaceOrder
+@Place
 Scenario: user proceed for payment to place the order
 Given user navigates to summary page
 When user checks for delivery order and billing address
