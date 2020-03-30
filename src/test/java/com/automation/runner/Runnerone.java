@@ -8,14 +8,14 @@ import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
 
 import com.automation.baseclass.BaseClass;
-import com.automation.helper.FileReaderManager;
+import com.automation.helper.FileReaderManager ;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "CucumberPractice\\Report\\return.txt", glue = "com\\automation\\stepdefinition", 
-plugin = {"pretty", "html:Report","com.cucumber.listener.ExtentCucumberFormatter:Report\\extentReport.html","rerun:Report/return.txt"}, 
+plugin = {"pretty", "html:Report","com.cucumber.listener.ExtentCucumberFormatter:Report\\extentReport.html"}, 
 monochrome = true, dryRun = false, strict = true)
 
 public class Runnerone {

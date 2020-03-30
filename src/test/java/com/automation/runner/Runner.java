@@ -18,7 +18,7 @@ import cucumber.api.junit.Cucumber;
 glue = "com\\automation\\stepdefinition", 
 plugin = {"pretty", "html:Report","com.cucumber.listener.ExtentCucumberFormatter:Report\\extentReport.html","rerun:Report/return.txt"}, 
 monochrome = true, dryRun = false, strict = true)
-//tags={"@BookingOrder","@PlaceOrder"})
+//tags={"@BookingOrder"})
 
 
 public class Runner {

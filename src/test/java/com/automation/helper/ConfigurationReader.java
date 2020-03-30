@@ -15,22 +15,17 @@ public class ConfigurationReader {
 		File f = new File("C:\\Users\\Vigneshwari\\eclipse-workspace\\CucumberPractice\\src\\test\\java\\com\\automation\\properties\\Configuration.properties");
 		FileInputStream fis = new FileInputStream(f);
 		p = new Properties();
-
 		p.load(fis);
 	}
 
 	public String getBroswerName() {
-
 		String broswerName = p.getProperty("broswerName");
 		return broswerName;
-
 	}
 
 	public String getUrl() 
 	{
 		String url=p.getProperty("url");
 		return url;
-
 	}
-	
 }

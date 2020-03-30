@@ -7,40 +7,46 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.scenarioOutline({
-  "line": 6,
+  "line": 7,
   "name": "user checking the login function using valid username and valid password",
   "description": "",
   "id": "testing-login-functionality-on-automation-application;user-checking-the-login-function-using-valid-username-and-valid-password",
   "type": "scenario_outline",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 6,
+      "name": "@login"
+    }
+  ]
 });
 formatter.step({
-  "line": 7,
+  "line": 8,
   "name": "user launch the application",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 8,
+  "line": 9,
   "name": "user enter the valid username \"\u003cusername\u003e\" in username field",
   "keyword": "When "
 });
 formatter.step({
-  "line": 9,
+  "line": 10,
   "name": "user enter the valid password \"\u003cpassword\u003e\" in password field",
   "keyword": "And "
 });
 formatter.step({
-  "line": 10,
+  "line": 11,
   "name": "user click on login button",
   "keyword": "And "
 });
 formatter.step({
-  "line": 11,
+  "line": 12,
   "name": "user confirm it navigates to the  homepage",
   "keyword": "Then "
 });
 formatter.examples({
-  "line": 12,
+  "line": 13,
   "name": "",
   "description": "",
   "id": "testing-login-functionality-on-automation-application;user-checking-the-login-function-using-valid-username-and-valid-password;",
@@ -50,7 +56,7 @@ formatter.examples({
         "username",
         "password"
       ],
-      "line": 13,
+      "line": 14,
       "id": "testing-login-functionality-on-automation-application;user-checking-the-login-function-using-valid-username-and-valid-password;;1"
     },
     {
@@ -58,14 +64,14 @@ formatter.examples({
         "lsmuthu488@gmail.com",
         "India79865"
       ],
-      "line": 14,
+      "line": 15,
       "id": "testing-login-functionality-on-automation-application;user-checking-the-login-function-using-valid-username-and-valid-password;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 790665,
+  "duration": 1328296,
   "status": "passed"
 });
 formatter.background({
@@ -89,31 +95,37 @@ formatter.match({
   "location": "StepDefinition.user_to_launch_the_broswer()"
 });
 formatter.result({
-  "duration": 493023157,
+  "duration": 776706939,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_to_launch_the_applicattion()"
 });
 formatter.result({
-  "duration": 131844,
+  "duration": 176053,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 14,
+  "line": 15,
   "name": "user checking the login function using valid username and valid password",
   "description": "",
   "id": "testing-login-functionality-on-automation-application;user-checking-the-login-function-using-valid-username-and-valid-password;;2",
   "type": "scenario",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 6,
+      "name": "@login"
+    }
+  ]
 });
 formatter.step({
-  "line": 7,
+  "line": 8,
   "name": "user launch the application",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 8,
+  "line": 9,
   "name": "user enter the valid username \"lsmuthu488@gmail.com\" in username field",
   "matchedColumns": [
     0
@@ -121,7 +133,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.step({
-  "line": 9,
+  "line": 10,
   "name": "user enter the valid password \"India79865\" in password field",
   "matchedColumns": [
     1
@@ -129,12 +141,12 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 10,
+  "line": 11,
   "name": "user click on login button",
   "keyword": "And "
 });
 formatter.step({
-  "line": 11,
+  "line": 12,
   "name": "user confirm it navigates to the  homepage",
   "keyword": "Then "
 });
@@ -142,7 +154,7 @@ formatter.match({
   "location": "StepDefinition.user_launch_the_application()"
 });
 formatter.result({
-  "duration": 27357659093,
+  "duration": 26692743241,
   "status": "passed"
 });
 formatter.match({
@@ -155,7 +167,7 @@ formatter.match({
   "location": "StepDefinition.user_enter_the_valid_username_in_username_field(String)"
 });
 formatter.result({
-  "duration": 3524369510,
+  "duration": 4313500342,
   "status": "passed"
 });
 formatter.match({
@@ -168,29 +180,29 @@ formatter.match({
   "location": "StepDefinition.user_enter_the_valid_password_in_password_field(String)"
 });
 formatter.result({
-  "duration": 3382298803,
+  "duration": 3441394122,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_click_on_login_button()"
 });
 formatter.result({
-  "duration": 7552940838,
+  "duration": 7392332042,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_confirm_it_navigates_to_the_homepage()"
 });
 formatter.result({
-  "duration": 49343,
+  "duration": 51710,
   "status": "passed"
 });
 formatter.after({
-  "duration": 402241,
+  "duration": 438160,
   "status": "passed"
 });
 formatter.before({
-  "duration": 267239,
+  "duration": 317370,
   "status": "passed"
 });
 formatter.background({
@@ -214,14 +226,14 @@ formatter.match({
   "location": "StepDefinition.user_to_launch_the_broswer()"
 });
 formatter.result({
-  "duration": 214739,
+  "duration": 302370,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_to_launch_the_applicattion()"
 });
 formatter.result({
-  "duration": 134607,
+  "duration": 112106,
   "status": "passed"
 });
 formatter.scenario({
@@ -230,13 +242,7 @@ formatter.scenario({
   "description": "",
   "id": "testing-login-functionality-on-automation-application;user-to-select-a-tshrit-for-booking-a-order",
   "type": "scenario",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "line": 18,
-      "name": "@BookingOrder"
-    }
-  ]
+  "keyword": "Scenario"
 });
 formatter.step({
   "line": 20,
@@ -277,57 +283,57 @@ formatter.match({
   "location": "StepDefinition.user_navigates_to_tshirt_in_women_option()"
 });
 formatter.result({
-  "duration": 11422674060,
+  "duration": 12084581859,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_click_on_tshirt_image_to_be_booked()"
 });
 formatter.result({
-  "duration": 11268990478,
+  "duration": 10904116375,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_choose_the_quantity_of_the_tshirt()"
 });
 formatter.result({
-  "duration": 3448195226,
+  "duration": 3497161630,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_choose_the_size_of_the_tshirt()"
 });
 formatter.result({
-  "duration": 3631755936,
+  "duration": 3755651178,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_choose_the_addchart_to_hold_the_booking()"
 });
 formatter.result({
-  "duration": 3299250901,
+  "duration": 3523279127,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_to_proceed_to_checkout()"
 });
 formatter.result({
-  "duration": 6250564775,
+  "duration": 5849395320,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_verifies_selection_of_tshirt_is_done()"
 });
 formatter.result({
-  "duration": 51711,
+  "duration": 65527,
   "status": "passed"
 });
 formatter.after({
-  "duration": 260134,
+  "duration": 265264,
   "status": "passed"
 });
 formatter.before({
-  "duration": 280266,
+  "duration": 218686,
   "status": "passed"
 });
 formatter.background({
@@ -351,57 +357,51 @@ formatter.match({
   "location": "StepDefinition.user_to_launch_the_broswer()"
 });
 formatter.result({
-  "duration": 151975,
+  "duration": 135396,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_to_launch_the_applicattion()"
 });
 formatter.result({
-  "duration": 103422,
+  "duration": 112895,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 31,
+  "line": 30,
   "name": "user proceed for payment to place the order",
   "description": "",
   "id": "testing-login-functionality-on-automation-application;user-proceed-for-payment-to-place-the-order",
   "type": "scenario",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "line": 30,
-      "name": "@PlaceOrder"
-    }
-  ]
+  "keyword": "Scenario"
 });
 formatter.step({
-  "line": 32,
+  "line": 31,
   "name": "user navigates to summary page",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 33,
+  "line": 32,
   "name": "user checks for delivery order and billing address",
   "keyword": "When "
 });
 formatter.step({
-  "line": 34,
+  "line": 33,
   "name": "user confirm the booking by agreeing the terms and conditions",
   "keyword": "And "
 });
 formatter.step({
-  "line": 35,
+  "line": 34,
   "name": "user to proceed for payment",
   "keyword": "And "
 });
 formatter.step({
-  "line": 36,
+  "line": 35,
   "name": "user confirm the order",
   "keyword": "And "
 });
 formatter.step({
-  "line": 37,
+  "line": 36,
   "name": "user verify order placed successfully",
   "keyword": "Then "
 });
@@ -409,46 +409,46 @@ formatter.match({
   "location": "StepDefinition.user_navigates_to_summary_page()"
 });
 formatter.result({
-  "duration": 6734144552,
+  "duration": 5845441616,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_checks_for_delivery_order_and_billing_address()"
 });
 formatter.result({
-  "duration": 5022859825,
+  "duration": 5149555465,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_confirm_the_booking_by_agreeing_the_terms_and_conditions()"
 });
 formatter.result({
-  "duration": 8026772099,
+  "duration": 8327800148,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_to_proceed_for_payment()"
 });
 formatter.result({
-  "duration": 5495594892,
+  "duration": 4883026667,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_confirm_the_order()"
 });
 formatter.result({
-  "duration": 6065166942,
+  "duration": 6018438642,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_verify_order_placed_successfully()"
 });
 formatter.result({
-  "duration": 45790,
+  "duration": 45395,
   "status": "passed"
 });
 formatter.after({
-  "duration": 194608,
+  "duration": 211975,
   "status": "passed"
 });
 });

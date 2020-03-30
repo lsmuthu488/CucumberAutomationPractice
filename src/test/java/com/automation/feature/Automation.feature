@@ -3,6 +3,7 @@ Feature: Testing login functionality on automation application
 Background:
 Given user to launch the broswer
 Then user to launch the applicattion
+@login
 Scenario Outline: user checking the login function using valid username and valid password
 Given user launch the application
 When user enter the valid username "<username>" in username field
@@ -15,7 +16,6 @@ Examples:
 
 
 
-@Booking
 Scenario: user to select a tshrit for booking a order 
 Given user navigates to tshirt in women option
 When user click on tshirt image to be booked
@@ -27,7 +27,6 @@ Then user verifies selection of tshirt is done
 
 
 
-@Place
 Scenario: user proceed for payment to place the order
 Given user navigates to summary page
 When user checks for delivery order and billing address
