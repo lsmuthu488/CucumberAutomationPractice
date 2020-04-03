@@ -36,4 +36,3 @@ And user confirm the order
 Then user verify order placed successfully
 
 
-

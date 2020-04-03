@@ -13,50 +13,44 @@ import com.automation.runner.Runner;
 import cucumber.api.Scenario;
 import cucumber.api.java.*;
 import cucumber.api.java.en.*;
+import junit.framework.Assert;
+
 
 public class StepDefinition extends BaseClass {
 
-	public static WebDriver driver = Runner.driver;
-	public static PageObjectManager pom = new PageObjectManager(driver);
+	//public static WebDriver driver = Runner.driver;
+	//public static PageObjectManager pom = new PageObjectManager(driver);
 
-/*	@Before
-	public void beforeHooks(Scenario scenario) 
-	{
+	public static WebDriver driver=Runner.driver;
+	public static PageObjectManager pom=new PageObjectManager(driver);
+	
+	/*
+	 * @Before public void beforeHooks(Scenario scenario) {
+	 * 
+	 * String name=scenario.getName(); System.out.println("Scenario is "+name);
+	 * 
+	 * }
+	 * 
+	 * @After public void afterHooks(Scenario scenario) { String
+	 * status=scenario.getStatus();
+	 * 
+	 * if(scenario.isFailed()) { System.out.println("Failed scenario "+status); } }
+	 */
 
-		String name=scenario.getName();
-		System.out.println("Scenario is "+name);
-		
-	}
-	
-	@After
-	public void afterHooks(Scenario scenario) 
-	{
-		String status=scenario.getStatus();
-		
-		if(scenario.isFailed())
-		{
-			System.out.println("Failed scenario "+status);
-		}
-	}*/
-	
 	@Given("^user to launch the broswer$")
-	public void user_to_launch_the_broswer() throws Throwable 
-	{
+	public void user_to_launch_the_broswer() throws Throwable {
 		System.out.println("Application Launched");
-	
+
 	}
 
 	@Then("^user to launch the applicattion$")
-	public void user_to_launch_the_applicattion() throws Throwable
-	{
+	public void user_to_launch_the_applicattion() throws Throwable {
 		System.out.println("Login SucessFull");
 	}
 
-	
 	@Given("^user launch the application$")
 	public void user_launch_the_application() throws IOException, InterruptedException {
 
-		
 		String url = FileReaderManager.getInstance().getCrInstance().getUrl();
 		driver.get(url);
 		Thread.sleep(5000);
@@ -69,7 +63,7 @@ public class StepDefinition extends BaseClass {
 	public void user_enter_the_valid_username_in_username_field(String arg1) throws Throwable {
 		inputtoWebElement(pom.getSp().getMail(), arg1);
 		Thread.sleep(3000);
-	
+
 	}
 
 	@When("^user enter the valid password \"([^\"]*)\" in password field$")
@@ -130,7 +124,7 @@ public class StepDefinition extends BaseClass {
 	public void user_click_on_tshirt_image_to_be_booked() throws Throwable {
 		mouseclick(pom.getBo().getEmg());
 		Thread.sleep(2000);
-		//driver.switchTo().frame(0);
+		// driver.switchTo().frame(0);
 		frameswitch();
 		Thread.sleep(7000);
 
@@ -203,7 +197,7 @@ public class StepDefinition extends BaseClass {
 
 	@Then("^user verify order placed successfully$")
 	public void user_verify_order_placed_successfully() throws Throwable {
-
+		Assert.assertEquals("", "   ");
 	}
 
 }
