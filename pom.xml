@@ -83,8 +83,8 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>2.22.2</version>
 				<configuration>
-					<parallel>Classes</parallel>
-					<threadCount>3</threadCount>
+					<parallel>classes</parallel>
+					<forkCount>4</forkCount>
 					<includes>
 						<include>**/*Runner*.java</include>
 					</includes>

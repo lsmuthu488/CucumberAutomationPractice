@@ -1,11 +1,11 @@
-com\automation\helper\ConfigurationReader.class
 com\automation\helper\FileReaderManager.class
-com\automation\stepdefinition\StepDefinition.class
 com\automation\stepdefinition\StepDefinitionHooks.class
-com\automation\pom\PageObjectManager.class
 com\automation\pom\BookOrder.class
-com\automation\pom\PlaceOrder.class
 com\automation\runner\Runner.class
+com\automation\helper\ConfigurationReader.class
+com\automation\stepdefinition\StepDefinition.class
+com\automation\pom\PageObjectManager.class
+com\automation\pom\PlaceOrder.class
 com\automation\pom\HomePage.class
 com\automation\pom\SiginPage.class
 com\automation\runner\Runnerone.class
