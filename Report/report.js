@@ -71,7 +71,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 948558,
+  "duration": 523424,
   "status": "passed"
 });
 formatter.background({
@@ -95,14 +95,14 @@ formatter.match({
   "location": "StepDefinition.user_to_launch_the_broswer()"
 });
 formatter.result({
-  "duration": 644429698,
+  "duration": 821261751,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_to_launch_the_applicattion()"
 });
 formatter.result({
-  "duration": 664346,
+  "duration": 70658,
   "status": "passed"
 });
 formatter.scenario({
@@ -154,7 +154,7 @@ formatter.match({
   "location": "StepDefinition.user_launch_the_application()"
 });
 formatter.result({
-  "duration": 47077596228,
+  "duration": 53122950959,
   "status": "passed"
 });
 formatter.match({
@@ -167,7 +167,7 @@ formatter.match({
   "location": "StepDefinition.user_enter_the_valid_username_in_username_field(String)"
 });
 formatter.result({
-  "duration": 4315580865,
+  "duration": 4666175874,
   "status": "passed"
 });
 formatter.match({
@@ -180,29 +180,29 @@ formatter.match({
   "location": "StepDefinition.user_enter_the_valid_password_in_password_field(String)"
 });
 formatter.result({
-  "duration": 3904463275,
+  "duration": 4203856285,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_click_on_login_button()"
 });
 formatter.result({
-  "duration": 8694236296,
+  "duration": 9346582882,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_confirm_it_navigates_to_the_homepage()"
 });
 formatter.result({
-  "duration": 64342,
+  "duration": 47369,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1368560,
+  "duration": 510003,
   "status": "passed"
 });
 formatter.before({
-  "duration": 169738,
+  "duration": 153554,
   "status": "passed"
 });
 formatter.background({
@@ -226,14 +226,14 @@ formatter.match({
   "location": "StepDefinition.user_to_launch_the_broswer()"
 });
 formatter.result({
-  "duration": 156317,
+  "duration": 152370,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_to_launch_the_applicattion()"
 });
 formatter.result({
-  "duration": 107764,
+  "duration": 94342,
   "status": "passed"
 });
 formatter.scenario({
@@ -283,57 +283,57 @@ formatter.match({
   "location": "StepDefinition.user_navigates_to_tshirt_in_women_option()"
 });
 formatter.result({
-  "duration": 15359295454,
+  "duration": 14652942247,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_click_on_tshirt_image_to_be_booked()"
 });
 formatter.result({
-  "duration": 12219163082,
+  "duration": 12171799525,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_choose_the_quantity_of_the_tshirt()"
 });
 formatter.result({
-  "duration": 3695962095,
+  "duration": 3470673057,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_choose_the_size_of_the_tshirt()"
 });
 formatter.result({
-  "duration": 3847398215,
+  "duration": 3598071937,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_choose_the_addchart_to_hold_the_booking()"
 });
 formatter.result({
-  "duration": 3319449702,
+  "duration": 3454889021,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_to_proceed_to_checkout()"
 });
 formatter.result({
-  "duration": 7137012354,
+  "duration": 5297497078,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_verifies_selection_of_tshirt_is_done()"
 });
 formatter.result({
-  "duration": 56053,
+  "duration": 38290,
   "status": "passed"
 });
 formatter.after({
-  "duration": 192633,
+  "duration": 172501,
   "status": "passed"
 });
 formatter.before({
-  "duration": 182370,
+  "duration": 109343,
   "status": "passed"
 });
 formatter.background({
@@ -357,14 +357,14 @@ formatter.match({
   "location": "StepDefinition.user_to_launch_the_broswer()"
 });
 formatter.result({
-  "duration": 119211,
+  "duration": 219475,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_to_launch_the_applicattion()"
 });
 formatter.result({
-  "duration": 259343,
+  "duration": 69869,
   "status": "passed"
 });
 formatter.scenario({
@@ -409,47 +409,47 @@ formatter.match({
   "location": "StepDefinition.user_navigates_to_summary_page()"
 });
 formatter.result({
-  "duration": 6861278426,
+  "duration": 6318443117,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_checks_for_delivery_order_and_billing_address()"
 });
 formatter.result({
-  "duration": 6119224227,
+  "duration": 4931414480,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_confirm_the_booking_by_agreeing_the_terms_and_conditions()"
 });
 formatter.result({
-  "duration": 8431431257,
+  "duration": 8283194497,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_to_proceed_for_payment()"
 });
 formatter.result({
-  "duration": 5281347907,
+  "duration": 4928829334,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_confirm_the_order()"
 });
 formatter.result({
-  "duration": 6720526709,
+  "duration": 7476163879,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_verify_order_placed_successfully()"
 });
 formatter.result({
-  "duration": 53205695,
+  "duration": 26684756,
   "error_message": "junit.framework.ComparisonFailure: expected:\u003c[]\u003e but was:\u003c[   ]\u003e\r\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:107)\r\n\tat com.automation.stepdefinition.StepDefinition.user_verify_order_placed_successfully(StepDefinition.java:200)\r\n\tat ✽.Then user verify order placed successfully(src/test/java/com/automation/feature/automation.feature:36)\r\n",
   "status": "failed"
 });
 formatter.after({
-  "duration": 223423,
+  "duration": 104212,
   "status": "passed"
 });
 });

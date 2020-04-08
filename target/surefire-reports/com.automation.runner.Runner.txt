@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.automation.runner.Runner
 -------------------------------------------------------------------------------
-Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 194.55 s - in com.automation.runner.Runner
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 191.824 s - in com.automation.runner.Runner
