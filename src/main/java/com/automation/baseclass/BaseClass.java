@@ -14,14 +14,14 @@ public class BaseClass {
 		try {
 			if (broswerName.equalsIgnoreCase("chrome")) {
 				System.setProperty("webdriver.chrome.driver",
-						"C:\\Users\\Vigneshwari\\eclipse-workspace\\SeleniumPractice\\driver\\chromedriver_win32 (1)\\chromedriver.exe");
+						"C:\\Users\\Vigneshwari\\eclipse-workspace\\CucumberPractice\\Driver\\chromedriver_win32 (1)\\chromedriver.exe");
 				driver = new ChromeDriver();
 				driver.manage().window().maximize();
 			}
 
 			else if (broswerName.equalsIgnoreCase("ie")) {
 				System.setProperty("webdriver.ie.driver",
-						"C:\\Users\\Vigneshwari\\eclipse-workspace\\SeleniumPractice\\driver\\IEDriverServer_x64_3.150.1\\IEDriverServer.exe");
+						"C:\\Users\\Vigneshwari\\eclipse-workspace\\CucumberPractice\\Driver\\IEDriverServer_x64_3.150.1\\IEDriverServer.exe");
 				driver = new InternetExplorerDriver();
 			}
 
