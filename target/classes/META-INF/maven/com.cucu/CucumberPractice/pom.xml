@@ -84,7 +84,6 @@
 				<version>2.22.2</version>
 				<configuration>
 					<parallel>classes</parallel>
-					<forkCount>4</forkCount>
 					<includes>
 						<include>**/*Runner*.java</include>
 					</includes>
